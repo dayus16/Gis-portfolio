@@ -3,13 +3,13 @@ import projects from "../data/projects";
 
 const Projects = () => {
   return (
-    <div className="border-t border-t-gray-600 mt-10">
+    <div className="border-t border-t-gray-600 mt-10" id="project">
       <div className="p-8 mt-5">
         <h3 className="text-xl font-semibold text-gray-300">Projects</h3>
         <p className="text-sm text-gray-400">Map applications I have built</p>
         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 space-x-4 space-y-3 mt-4">
           {projects.map((project) => (
-            <div className="border border-gray-400 rounded-lg">
+            <div key={project.name} className="border border-gray-400 rounded-lg">
               <div
                 className="relative border border-gray-400 rounded-t-lg h-30"
                 style={{
@@ -31,11 +31,21 @@ const Projects = () => {
                   {project.description}
                 </p>
               </div>
-              <div className="p-2 flex gap-3 ">
+              <div className="p-2 flex gap-1 ">
                 {project.tags.map((tag) => (
-                  <p key={tag} className="bg-black px-4 rounded-full">{tag}</p>
+                  <p key={tag} className="bg-black px-4 text-sm rounded-full">
+                    {tag}
+                  </p>
                 ))}
               </div>
+              <nav className="flex items-center gap-2 pl-4 mb-3">
+                <a href="" className="text-sm text-blue-700">
+                  🔗 Live demo
+                </a>
+                <a href="" className="text-sm text-blue-700">
+                  📂 GitHub
+                </a>
+              </nav>
             </div>
           ))}
         </div>

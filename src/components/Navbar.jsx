@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="sticky top-0 z-50" id="home">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
@@ -29,17 +29,17 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a href="">About</a>
+                <a href="#about">About</a>
               </li>
 
               <li>
-                <a href="">Skills</a>
+                <a href="#skill">Skills</a>
               </li>
               <li>
-                <a href="">Projects</a>
+                <a href="#project">Projects</a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -48,24 +48,24 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="">Skills</a>
+              <a href="#skill">Skills</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#project">Projects</a>
             </li>
 
             <li>
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
           <a
             className="border border-blue-600 py-1 px-4 rounded-lg text-blue-600"
-            href=""
+            href="#contact"
           >
             Hire me
           </a>

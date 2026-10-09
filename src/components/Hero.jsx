@@ -3,7 +3,10 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center mt-10">
+      <div
+        className="flex flex-col justify-center items-center mt-10"
+        id="about"
+      >
         <p className="bg-blue-500 text-xs rounded-full px-4 py-1 mb-6">
           🗺️ GIS Frontend Developer
         </p>

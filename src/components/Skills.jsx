@@ -3,7 +3,7 @@ import skillset from "../data/skillset";
 
 const Skills = () => {
   return (
-    <div className="border-t border-t-gray-600 mt-10">
+    <div className="border-t border-t-gray-600 mt-10" id="skill">
       <div className="p-8 mt-5">
         <h3 className="text-xl font-semibold text-gray-300">Skills</h3>
         <p className="text-sm text-gray-400">Technologies I work with</p>
