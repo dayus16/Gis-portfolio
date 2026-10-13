@@ -1,15 +1,25 @@
-import React from "react";
+import { motion } from "framer-motion";
 import projects from "../data/projects";
 
 const Projects = () => {
   return (
-    <div className="border-t border-t-gray-600 mt-10" id="project">
+    <motion.section
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 2 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="border-t border-t-gray-600 mt-10"
+      id="projects"
+    >
       <div className="p-8 mt-5">
         <h3 className="text-xl font-semibold text-gray-300">Projects</h3>
         <p className="text-sm text-gray-400">Map applications I have built</p>
-        <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 space-x-4 space-y-3 mt-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 mt-4">
           {projects.map((project) => (
-            <div key={project.name} className="border border-gray-400 rounded-lg">
+            <div
+              key={project.name}
+              className="border border-gray-400 rounded-lg"
+            >
               <div
                 className="relative border border-gray-400 rounded-t-lg h-30"
                 style={{
@@ -50,7 +60,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.section>
   );
 };
 

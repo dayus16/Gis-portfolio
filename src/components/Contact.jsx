@@ -1,15 +1,22 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="border-t border-t-gray-600 mt-10" id="contact">
+    <motion.section
+      initial={{ opacity: 0, x: 100 }}
+      transition={{ duration: 2 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="border-t border-t-gray-600 mt-10"
+      id="contacts"
+    >
       <div className="p-8 mt-5">
         <div className="flex flex-col justify-center items-center">
           <div className="border border-gray-500 rounded-lg py-8 px-30 text-center">
             <h2 className="text-xl font-bold text-gray-200">
               Let's work together
             </h2>
-            <p className="text-sm text-gray-300 mt-2">
+            <p className="text-sm text-gray-300 mt-2 leading-relaxed">
               I am open to GIS developer roles, freelance map projects <br />{" "}
               and collaborations. Feel free to reach out!
             </p>
@@ -39,7 +46,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.section>
   );
 };
 
