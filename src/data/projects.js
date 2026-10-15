@@ -1,41 +1,46 @@
 const projects = [
   {
     id: 1,
-    name: "Abuja Location Finder",
-    description: "Find hospitals, restaurants, schools and more near your location in Abuja.",
-    emoji: "🏥",
+    name: "Nigeria Road Trip",
+    description:
+      "Plan multi-stop road trips with real driving routes and distance calculations.",
+    emoji: "🚗",
     library: "Leaflet",
     color: "#E1F5EE",
     tags: ["React", "Leaflet", "Geoapify API"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://nigeria-road-trip-planner.vercel.app/",
+    githubLink: "https://github.com/dayus16/Nigeria-Road-Trip-Planner",
   },
   {
     id: 2,
     name: "Nigeria States Explorer",
-    description: "Interactive map of all 36 Nigerian states with population and zone data.",
+    description:
+      "Interactive map of all 36 Nigerian states with population and zone data.",
     emoji: "🗺️",
     library: "Leaflet",
     color: "#E6F1FB",
     tags: ["React", "Leaflet", "GeoJSON"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://nigeria-state-explorer-interactive.vercel.app/",
+    githubLink:
+      "https://github.com/dayus16/Nigeria-State-Explorer-Interactive-Geo-Map",
   },
   {
     id: 3,
     name: "Nigeria Weather Map",
-    description: "Live weather data for major Nigerian cities with temperature and conditions.",
+    description:
+      "Live weather data for major Nigerian cities with temperature and conditions.",
     emoji: "🌦️",
     library: "Leaflet",
     color: "#FAEEDA",
     tags: ["React", "Leaflet", "OpenWeather API"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://nigeria-weather-map.vercel.app/",
+    githubLink: "https://github.com/dayus16/Nigeria-Weather-Map",
   },
   {
     id: 4,
     name: "Nigeria Road Trip Planner",
-    description: "Plan multi-stop road trips with real driving routes and distance calculations.",
+    description:
+      "Plan multi-stop road trips with real driving routes and distance calculations.",
     emoji: "🚗",
     library: "Mapbox",
     color: "#EAF3DE",
@@ -46,7 +51,8 @@ const projects = [
   {
     id: 5,
     name: "Nigeria Real Estate Map",
-    description: "Browse properties for sale and rent across Lagos and Abuja with filters.",
+    description:
+      "Browse properties for sale and rent across Lagos and Abuja with filters.",
     emoji: "🏠",
     library: "Mapbox",
     color: "#FCEBEB",
@@ -57,7 +63,8 @@ const projects = [
   {
     id: 6,
     name: "Nigeria Landmark Explorer",
-    description: "Explore famous Nigerian landmarks with descriptions, facts and directions.",
+    description:
+      "Explore famous Nigerian landmarks with descriptions, facts and directions.",
     emoji: "🏛️",
     library: "Mapbox",
     color: "#F1EFE8",
@@ -68,7 +75,8 @@ const projects = [
   {
     id: 7,
     name: "Nigeria Food Map",
-    description: "Discover traditional Nigerian dishes from each geopolitical zone.",
+    description:
+      "Discover traditional Nigerian dishes from each geopolitical zone.",
     emoji: "🍲",
     library: "Mapbox",
     color: "#FAEEDA",

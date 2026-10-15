@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             className="border border-blue-600 py-1 px-4 rounded-lg text-blue-600"
-            href="#contact"
+            href="#contacts"
           >
             Hire me
           </a>

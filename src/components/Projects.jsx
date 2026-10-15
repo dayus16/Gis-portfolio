@@ -49,10 +49,18 @@ const Projects = () => {
                 ))}
               </div>
               <nav className="flex items-center gap-2 pl-4 mb-3">
-                <a href="" className="text-sm text-blue-700">
+                <a
+                  href={project.liveLink}
+                  className="text-sm text-blue-700"
+                  target="_blank"
+                >
                   🔗 Live demo
                 </a>
-                <a href="" className="text-sm text-blue-700">
+                <a
+                  href={project.githubLink}
+                  className="text-sm text-blue-700"
+                  target="_blank"
+                >
                   📂 GitHub
                 </a>
               </nav>
