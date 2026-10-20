@@ -81,8 +81,9 @@ const projects = [
     library: "Mapbox",
     color: "#FAEEDA",
     tags: ["React", "Mapbox", "GeoJSON"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://build-naija-foods-mapbox-map-with-f-blond.vercel.app/",
+    githubLink:
+      "https://github.com/dayus16/Build-NaijaFoods-Mapbox-map-with-food-markers",
   },
 ];
 
