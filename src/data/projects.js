@@ -45,8 +45,8 @@ const projects = [
     library: "Mapbox",
     color: "#EAF3DE",
     tags: ["React", "Mapbox", "Directions API"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://nigeria-mapbox-interactive-map.vercel.app/",
+    githubLink: "https://github.com/dayus16/Nigeria-mapbox-interactive-map",
   },
   {
     id: 5,
@@ -57,8 +57,8 @@ const projects = [
     library: "Mapbox",
     color: "#FCEBEB",
     tags: ["React", "Mapbox", "Custom Markers"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://nigeria-real-estate-map-c6bm.vercel.app/",
+    githubLink: "https://github.com/dayus16/Nigeria-Real-Estate-Map",
   },
   {
     id: 6,
@@ -69,8 +69,8 @@ const projects = [
     library: "Mapbox",
     color: "#F1EFE8",
     tags: ["React", "Mapbox", "flyTo"],
-    liveLink: "your-vercel-link-here",
-    githubLink: "your-github-link-here",
+    liveLink: "https://nigeria-explore-mapbox-i97d.vercel.app/",
+    githubLink: "https://github.com/dayus16/NigeriaExplore-Mapbox",
   },
   {
     id: 7,
